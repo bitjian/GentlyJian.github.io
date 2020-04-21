@@ -90,6 +90,12 @@ include:
 exclude:
 ignore:
 
+# https://github.com/theme-next/hexo-symbols-count-time
+symbols_count_time:
+  symbols: true # 文章字数统计
+  time: true # 文章预计阅读时间
+  total_symbols: true # 页面底部站点总字数统计
+  total_time: true # 页面底部站点总阅读时间预计
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/

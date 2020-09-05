@@ -20,11 +20,11 @@
 <p>-- webpack.config.js</p>
 </blockquote>
 </li>
-<li>index.html // 入口页面<a id="more"></a>
-</li>
+<li>index.html // 入口页面</li>
 </ul>
 </blockquote>
 </blockquote>
+<a id="more"></a>
 <h4 id="2-2-初始化npm"><a href="#2-2-初始化npm" class="headerlink" title="2.2 初始化npm"></a>2.2 初始化npm</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">npm init</span><br></pre></td></tr></table></figure>
 <h4 id="2-3-在项目中安装typescript"><a href="#2-3-在项目中安装typescript" class="headerlink" title="2.3 在项目中安装typescript"></a>2.3 在项目中安装typescript</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">npm -i typescript</span><br></pre></td></tr></table></figure>
 <h4 id="2-4-初始化tsconfig-json文件"><a href="#2-4-初始化tsconfig-json文件" class="headerlink" title="2.4 初始化tsconfig.json文件"></a>2.4 初始化tsconfig.json文件</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">tsc --init  <span class="comment">// 自动在根目录生成tsconfig.json并初始化配置文件</span></span><br></pre></td></tr></table></figure>

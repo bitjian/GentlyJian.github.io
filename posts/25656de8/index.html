@@ -26,21 +26,20 @@
   </script>
 
 
-  <meta name="description" content="孜孜不倦，宁静致远">
-<meta property="og:type" content="website">
-<meta property="og:title" content="孜孜Blog">
-<meta property="og:url" content="https://gentlyjian.github.io/index.html">
+  <meta name="description" content="最近简单学习了一下ts发现还真有点香，借双休总结回顾一下，先来回顾搭建一个可以运行ts文件的环境，这样后面编译ts就方便了 1 安装typescript1.1 在拥有node的系统环境通过npm安装typescript1npm install typescript -g 1.2 查看版本检查是否安装成功  1tsc --version 安装成功后就可以通过指令编译ts文件了,会在目录生成对应js文">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ts运行环境配置">
+<meta property="og:url" content="https://gentlyjian.github.io/posts/25656de8/index.html">
 <meta property="og:site_name" content="孜孜Blog">
-<meta property="og:description" content="孜孜不倦，宁静致远">
+<meta property="og:description" content="最近简单学习了一下ts发现还真有点香，借双休总结回顾一下，先来回顾搭建一个可以运行ts文件的环境，这样后面编译ts就方便了 1 安装typescript1.1 在拥有node的系统环境通过npm安装typescript1npm install typescript -g 1.2 查看版本检查是否安装成功  1tsc --version 安装成功后就可以通过指令编译ts文件了,会在目录生成对应js文">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-09-05T03:44:01.000Z">
+<meta property="article:modified_time" content="2020-09-05T09:37:38.677Z">
 <meta property="article:author" content="小建">
-<meta property="article:tag" content="js">
-<meta property="article:tag" content="javascript">
-<meta property="article:tag" content="Vue">
-<meta property="article:tag" content="前端">
+<meta property="article:tag" content="ts基础">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://gentlyjian.github.io/">
+<link rel="canonical" href="https://gentlyjian.github.io/posts/25656de8/">
 
 
 <script id="page-configurations">
@@ -48,12 +47,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>孜孜Blog</title>
+  <title>ts运行环境配置 | 孜孜Blog</title>
   
 
 
@@ -199,9 +198,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -217,10 +217,9 @@
       <meta itemprop="name" content="孜孜Blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/25656de8/" class="post-title-link" itemprop="url">ts运行环境配置</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          ts运行环境配置
+        </h1>
 
         <div class="post-meta">
           
@@ -244,6 +243,13 @@
             </span>
 
           
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
   <span class="post-meta-item">
     
@@ -282,7 +288,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>最近简单学习了一下ts发现还真有点香，借双休总结回顾一下，先来回顾搭建一个可以运行ts文件的环境，这样后面编译ts就方便了</p>
+        <p>最近简单学习了一下ts发现还真有点香，借双休总结回顾一下，先来回顾搭建一个可以运行ts文件的环境，这样后面编译ts就方便了</p>
 <h3 id="1-安装typescript"><a href="#1-安装typescript" class="headerlink" title="1 安装typescript"></a>1 安装typescript</h3><h4 id="1-1-在拥有node的系统环境通过npm安装typescript"><a href="#1-1-在拥有node的系统环境通过npm安装typescript" class="headerlink" title="1.1 在拥有node的系统环境通过npm安装typescript"></a>1.1 在拥有node的系统环境通过npm安装typescript</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install typescript -g</span><br></pre></td></tr></table></figure>
 <h4 id="1-2-查看版本检查是否安装成功"><a href="#1-2-查看版本检查是否安装成功" class="headerlink" title="1.2 查看版本检查是否安装成功"></a>1.2 查看版本检查是否安装成功</h4>  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tsc --version</span><br></pre></td></tr></table></figure>
 <h4 id="安装成功后就可以通过指令编译ts文件了-会在目录生成对应js文件"><a href="#安装成功后就可以通过指令编译ts文件了-会在目录生成对应js文件" class="headerlink" title="安装成功后就可以通过指令编译ts文件了,会在目录生成对应js文件"></a>安装成功后就可以通过指令编译ts文件了,会在目录生成对应js文件</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tsc main.ts</span><br></pre></td></tr></table></figure>
@@ -330,474 +336,117 @@
 
 <h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="https://mp.weixin.qq.com/s/wnL1l-ERjTDykWM76l4Ajw" target="_blank" rel="noopener">TypeScript(二)使用Webpack搭建环境</a> </p>
 
-      
     </div>
 
     
     
     
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-  
+        <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
       
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://gentlyjian.github.io/posts/5993bb22/">
+      <div style="display: inline-block;">
+        <img src="/images/%E5%B0%8F%E5%BB%BAPay.png" alt="小建 微信/支付宝/QQ">
+        <p>微信/支付宝/QQ</p>
+      </div>
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="小建">
-      <meta itemprop="description" content="孜孜不倦，宁静致远">
-    </span>
+  </div>
+</div>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="孜孜Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/5993bb22/" class="post-title-link" itemprop="url">js继承</a>
-        </h2>
-
-        <div class="post-meta">
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-06-13 09:50:05 / 修改时间：10:51:18" itemprop="dateCreated datePublished" datetime="2020-06-13T09:50:05+08:00">2020-06-13</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/js/" itemprop="url" rel="index"><span itemprop="name">js</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/posts/5993bb22/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/posts/5993bb22/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>4.7k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>4 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="js继承"><a href="#js继承" class="headerlink" title="js继承"></a>js继承</h3><p>又到了双休，但是手机老是给我提示暴雨预警，哪都不敢去。所以借着这个时机来复习一下js基础中的继承，顺便总结一下中间踩到的坑，每个实例的代码都全部写下来，虽然有很多是重复的但是这样方便查看和理解，如有错误欢迎指点^_^</p>
-<h4 id="原型链继承"><a href="#原型链继承" class="headerlink" title="原型链继承"></a>原型链继承</h4><p>原型链继承，就是让子类的原型属性指向父类的实例，这样子类没有在自己的实例里找到属性就会去原型上找（此时是父类的实例），再没有找到就去父类原型上找</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 创建父类</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Super</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">this</span>.supArr = [<span class="string">'a'</span>, <span class="string">'b'</span>]</span><br><span class="line">  <span class="keyword">this</span>.name = <span class="string">'super'</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 为父类原型添加方法</span></span><br><span class="line">Super.prototype.sayName = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="keyword">this</span>.name)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 创建子类</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Sub</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 注意：为子类原型添加方法, 改变子类原型对象后获取不到此方法 ×</span></span><br><span class="line">Sub.prototype.saySubName1 = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'saySubName1'</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 将子类的原型对象指向父类实例</span></span><br><span class="line">Sub.prototype = <span class="keyword">new</span> Super()</span><br><span class="line"><span class="comment">// 改变子类原型后，为子类原型添加方法 √</span></span><br><span class="line">Sub.prototype.saySubName2 = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'saySubName2'</span>)</span><br><span class="line">&#125;</span><br><span class="line">Sub.prototype.sayArr = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="keyword">this</span>.supArr)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建子类实例</span></span><br><span class="line"><span class="keyword">let</span> sub1 = <span class="keyword">new</span> Sub()</span><br><span class="line"><span class="keyword">let</span> sub2 = <span class="keyword">new</span> Sub()</span><br><span class="line"></span><br><span class="line">sub1.name =<span class="string">'aaa'</span></span><br><span class="line">sub2.name = <span class="string">'bbb'</span></span><br><span class="line">sub1.sayName() <span class="comment">// aaa</span></span><br><span class="line">sub2.sayName() <span class="comment">// bbb</span></span><br><span class="line">sub1.supArr.push(<span class="string">'c'</span>) </span><br><span class="line">sub2.sayArr() <span class="comment">// ['a', 'b'] -&gt; ['a', 'b', 'c']</span></span><br></pre></td></tr></table></figure>
-<p>使用原型链继承，可以帮助我们更加深刻的理解原型，但是也有很多缺点<br>缺点，1.修改父类引用类型，所有子类实例都会受到影响<br>2.不能实现多继承 3.不能向父类构造函数传参</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/5993bb22/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>小建
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://gentlyjian.github.io/posts/25656de8/" title="ts运行环境配置">https://gentlyjian.github.io/posts/25656de8/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
 
-  
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://gentlyjian.github.io/posts/8f15cc15/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="小建">
-      <meta itemprop="description" content="孜孜不倦，宁静致远">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="孜孜Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/8f15cc15/" class="post-title-link" itemprop="url">v-html中的dom绑定事件</a>
-        </h2>
-
-        <div class="post-meta">
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-05-10 15:03:55" itemprop="dateCreated datePublished" datetime="2020-05-10T15:03:55+08:00">2020-05-10</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-09-05 11:42:15" itemprop="dateModified" datetime="2020-09-05T11:42:15+08:00">2020-09-05</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/vue/" itemprop="url" rel="index"><span itemprop="name">vue</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/posts/8f15cc15/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/posts/8f15cc15/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>748</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>后台返回数据为HTML，通过v-html渲染页面后，jquery为数据里的Dom添加事件</p>
-<h4 id="后台数据与渲染"><a href="#后台数据与渲染" class="headerlink" title="后台数据与渲染"></a>后台数据与渲染</h4><p>这是后台返回的数据<img src="/posts/8f15cc15/data.png" class="" title="example"><br>这是通过v-html渲染到页面<img src="/posts/8f15cc15/html.png" class="" title="example"></p>
-<h4 id="添加点击事件失败"><a href="#添加点击事件失败" class="headerlink" title="添加点击事件失败"></a>添加点击事件失败</h4><p>在vue声明周期mounted添加事件,并没有添加到，甚至连dom都没有获取到</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log($(<span class="string">'.app-link'</span>))</span><br><span class="line">mounted() &#123;</span><br><span class="line">    $(<span class="string">'.app-link'</span>).on(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">event</span>) </span>&#123;</span><br><span class="line">      event.preventDefault();</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="string">'1111111111'</span>)</span><br><span class="line">    &#125;);</span><br><span class="line"> &#125;,</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/8f15cc15/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
 
-  
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://gentlyjian.github.io/posts/988e810e/">
+    <div class="social-list">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="小建">
-      <meta itemprop="description" content="孜孜不倦，宁静致远">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="孜孜Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/988e810e/" class="post-title-link" itemprop="url">关于for的一系列</a>
-        </h2>
-
-        <div class="post-meta">
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-04-24 08:57:20" itemprop="dateCreated datePublished" datetime="2020-04-24T08:57:20+08:00">2020-04-24</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-05-10 15:56:22" itemprop="dateModified" datetime="2020-05-10T15:56:22+08:00">2020-05-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/js/" itemprop="url" rel="index"><span itemprop="name">js</span></a>
-                </span>
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat.png">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
             </span>
 
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/posts/988e810e/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/posts/988e810e/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>2.9k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
-            </span>
-
+            <span class="label">WeChat</span>
+          </a>
         </div>
-      </header>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h4 id="遍历数组"><a href="#遍历数组" class="headerlink" title="遍历数组"></a>遍历数组</h4><h5 id="for循环"><a href="#for循环" class="headerlink" title="for循环"></a>for循环</h5><p>遍历数组常用for循环 ES5遍历数组的方法有forEach,map,filter,some，every,reduce等<br> 使用forEach不能使用break和return跳出循环</p>
-<p>es5的forEach方法其实性能比for循环还要弱，使用for循环可以将长度用遍历存起来，可以优化性能</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Array</span>.prototype.method = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="keyword">this</span>.length);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">var</span> myArray = [<span class="string">"a"</span>, <span class="string">"b"</span>, <span class="string">"c"</span>, <span class="string">"d"</span>];</span><br><span class="line">myArray.name = <span class="string">"数组"</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> j = <span class="number">0</span>,len = myArray.length; j &lt; len; j++)&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(myArray[j]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/988e810e/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-  
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://gentlyjian.github.io/posts/2ba55f9f/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="小建">
-      <meta itemprop="description" content="孜孜不倦，宁静致远">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="孜孜Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/2ba55f9f/" class="post-title-link" itemprop="url">浅拷贝与深拷贝</a>
-        </h2>
-
-        <div class="post-meta">
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-04-22 10:38:48" itemprop="dateCreated datePublished" datetime="2020-04-22T10:38:48+08:00">2020-04-22</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-05-10 15:56:17" itemprop="dateModified" datetime="2020-05-10T15:56:17+08:00">2020-05-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/js/" itemprop="url" rel="index"><span itemprop="name">js</span></a>
-                </span>
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
             </span>
 
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/posts/2ba55f9f/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/posts/2ba55f9f/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>1.5k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
+            <span class="label">RSS</span>
+          </a>
         </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="浅拷贝"><a href="#浅拷贝" class="headerlink" title="浅拷贝"></a>浅拷贝</h3><h4 id="使用Object-assign将原对象的值分配给一个新对象"><a href="#使用Object-assign将原对象的值分配给一个新对象" class="headerlink" title="使用Object.assign将原对象的值分配给一个新对象"></a>使用Object.assign将原对象的值分配给一个新对象</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> obj = &#123;</span><br><span class="line">	name: <span class="string">'zzj'</span></span><br><span class="line">	age: <span class="string">'22'</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 要在Object.assign 重新定义一个&#123;&#125; 然后将obj复制到&#123;&#125;</span></span><br><span class="line"><span class="keyword">let</span> objCp = <span class="built_in">Object</span>.assign(&#123;&#125;,obj)</span><br><span class="line"><span class="comment">// 修改objCp 的属性 不会影响原来的对象</span></span><br><span class="line">objCp.age = <span class="string">'23'</span></span><br><span class="line"><span class="built_in">console</span>.log(objCp, obj) <span class="comment">// &#123; name: 'zzj', age: '23' &#125; &#123; name: 'zzj', age: '22' &#125;</span></span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/2ba55f9f/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
     </div>
+  </div>
 
-    
-    
-    
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+          <div class="post-tags">
+              <a href="/tags/ts%E5%9F%BA%E7%A1%80/" rel="tag"># ts基础</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/5993bb22/" rel="prev" title="js继承">
+      <i class="fa fa-chevron-left"></i> js继承
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
       </footer>
+    
   </article>
   
   
   
 
   
-
+  <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束 <i class="fa fa-heart"></i> 感谢阅读-------------</div>
   
-
 
 
           </div>
           
+      <div class="tabs tabs-comment">
+        <ul class="nav-tabs">
+            <li class="tab"><a href="#comment-valine">互动！互动！</a></li>
+            <li class="tab"><a href="#comment-gitalk">gitalk</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane valine" id="comment-valine">
+              <div class="comments" id="valine-comments"></div>
+            </div>
+            <div class="tab-pane gitalk" id="comment-gitalk">
+              <div class="comments" id="gitalk-container"></div>
+            </div>
+        </div>
+      </div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -844,6 +493,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-安装typescript"><span class="nav-number">1.</span> <span class="nav-text">1 安装typescript</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-1-在拥有node的系统环境通过npm安装typescript"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 在拥有node的系统环境通过npm安装typescript</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-查看版本检查是否安装成功"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 查看版本检查是否安装成功</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装成功后就可以通过指令编译ts文件了-会在目录生成对应js文件"><span class="nav-number">1.3.</span> <span class="nav-text">安装成功后就可以通过指令编译ts文件了,会在目录生成对应js文件</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-配置webpack-编译ts"><span class="nav-number">2.</span> <span class="nav-text">2 配置webpack 编译ts</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-创建项目目录"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 创建项目目录</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-初始化npm"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 初始化npm</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3-在项目中安装typescript"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 在项目中安装typescript</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-4-初始化tsconfig-json文件"><span class="nav-number">2.4.</span> <span class="nav-text">2.4 初始化tsconfig.json文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-5-安装并配置tslint来约束代码"><span class="nav-number">2.5.</span> <span class="nav-text">2.5 安装并配置tslint来约束代码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-6-安装webpack相关插件"><span class="nav-number">2.6.</span> <span class="nav-text">2.6 安装webpack相关插件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-7-在package-json-里配置启动脚本"><span class="nav-number">2.7.</span> <span class="nav-text">2.7 在package.json 里配置启动脚本</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-8-安装-cross-env-判断当前是开发环境还是生产环境"><span class="nav-number">2.8.</span> <span class="nav-text">2.8 安装 cross-env 判断当前是开发环境还是生产环境</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-9-安装webpack-loader-ts-loader-来解析-ts文件"><span class="nav-number">2.9.</span> <span class="nav-text">2.9 安装webpack loader: ts-loader 来解析 .ts文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-10-安装-html-webpack-plugin-来配置入口视图"><span class="nav-number">2.10.</span> <span class="nav-text">2.10 安装 html-webpack-plugin 来配置入口视图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-11-在build文件夹中webpack-config-js-来配置webpack完整配置"><span class="nav-number">2.11.</span> <span class="nav-text">2.11 在build文件夹中webpack.config.js 来配置webpack完整配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-12-在src文件夹中main-ts-编写代码或导入模块"><span class="nav-number">2.12.</span> <span class="nav-text">2.12 在src文件夹中main.ts 编写代码或导入模块</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-13-启动项目"><span class="nav-number">2.13.</span> <span class="nav-text">2.13 启动项目</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#完整目录"><span class="nav-number">3.</span> <span class="nav-text">完整目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#完整webpack配置"><span class="nav-number">4.</span> <span class="nav-text">完整webpack配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考"><span class="nav-number">5.</span> <span class="nav-text">参考</span></a></li></ol></div>
       </div>
       <!--/noindex-->
       <div class="site-overview-wrap sidebar-panel">
@@ -1065,6 +715,25 @@
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '6d894edc8949741f3e69',
+      clientSecret: '343e5e1b192d61be0649d893eca324c727d7abfb',
+      repo        : 'github-pages-comments',
+      owner       : 'GentlyJian',
+      admin       : ['GentlyJian'],
+      id          : '2f61889f6a447afc46650af84a2d8a6e',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 
 <script>

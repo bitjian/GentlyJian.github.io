@@ -22,6 +22,7 @@
 <p>2.可以将undefined和null 赋值给所有类型</p>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> num: number = u</span><br><span class="line">num = n</span><br></pre></td></tr></table></figure>
 <p>在们在 tsconfig.js 文件中设置 为严格模式下，则不能将undefined和void 赋值给自身和void以外的变量了</p>
+<h4 id="7-参考"><a href="#7-参考" class="headerlink" title="7. 参考"></a>7. 参考</h4><p><a href="https://ts.xcatliu.com/basics/primitive-data-types.html" target="_blank" rel="noopener">原始数据类型</a></p>
 ]]></content>
       <categories>
         <category>ts</category>
